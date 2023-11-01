@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.login-body {
+  background: rgba(252, 213, 186, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+  transition: 0.5s;
+}
+
+.login-form-div {
+  width: 420px;
+  background: #ffffff;
+  box-shadow: 8px 16px 32px rgba(255, 102, 51, 0.2);
+  border-radius: 4px;
+  padding: 72px 80px 44px 80px;
+  position: relative;
+}
+.a {
+  position: absolute;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #606060;
+  bottom: 69px;
+  right: 80px;
+}
+h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #414141;
+}
+.name_admin,
+.password_admin {
+  background: #ffffff;
+  border: 1px solid #70c05b;
+  box-shadow: 4px 8px 16px rgb(112 192 91 / 20%);
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.input-number .phone_label,
+.input-password .phone_label {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #8f8f8f;
+}
+:focus {
+  outline: none;
+}
+.sign-admin {
+  background: transparent;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  padding: 8px;
+  gap: 8px;
+  color: #70c05b;
+  text-decoration: none;
+  width: 76px;
+  margin-top: 20px;
+}
+
+.input-number,
+.input-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-number input,
+.input-password input {
+  background: #ffffff;
+  border: 1px solid #70c05b;
+  box-shadow: 4px 8px 16px rgba(112, 192, 91, 0.2);
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.input-number input:focus,
+.input-password input:focus {
+  outline: none;
+}
+
+.input-password {
+  margin-top: 32px;
+}
+
+.log_in {
+  background: #fcd5ba;
+  border: none;
+  border-radius: 4px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ff6633;
+  padding: 16px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+.name_label,
+.password_label {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #8f8f8f;
+}
+.close_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  background: #f3f2f1;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom_meniki {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.bottom_meniki .left button {
+  background: transparent;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  padding: 8px;
+  gap: 8px;
+}
+
+.bottom_meniki .left button a {
+  align-items: center;
+  text-align: center;
+  color: #70c05b;
+}
+
+.bottom_meniki .right a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #606060;
+}
